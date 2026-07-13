@@ -55,3 +55,4 @@ FROM brighttv.data.viewership_details;
 --TO_DATE(name of the column you're converting)
 SELECT RecordDate2, TO_DATE(RecordDate2) AS Watch_Date -- TO_DATE() Extracts date from a Time Stamp
 FROM brighttv.data.viewership_details;
+
